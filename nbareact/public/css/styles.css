@@ -69,15 +69,16 @@ footer {
                 SLIDER
 ===================================*/
 .item_slider {
+    width:700px;
     height: 700px;
-    background-size: cover !important;
+    background-size :cover !important;
     background-position: center center !important;
-    position: relative;
     font-family: 'Fjalla One', sans-serif;
+    position: relative;
 }
 
 .item_slider .caption {
-    color: #fff;
+    color:white;
     position: absolute;
     right: 0px;
     padding: 20px;
