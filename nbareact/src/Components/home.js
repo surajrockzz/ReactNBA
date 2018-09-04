@@ -1,5 +1,7 @@
 import React,{Component} from 'react'
 import Featured from './featured' 
+import Subscribe from './subscribe'
+import Blocks from './blocks'
 
 
 const BASE_URL = 'http://localhost:3004/home'
@@ -22,7 +24,11 @@ class Home extends Component
     }
     render(){
         return (
+            <div>
             <Featured slides={this.state.home.slider}/>
+            <Subscribe/>
+            <Blocks blocks={this.state.home.blocks}/>
+            </div>
         )
     }
 }
