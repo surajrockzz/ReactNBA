@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import Featured from './featured' 
 import Subscribe from './subscribe'
 import Blocks from './blocks'
-
+import Poll from './poll'
 
 const BASE_URL = 'http://localhost:3004/home'
 class Home extends Component
@@ -28,6 +28,7 @@ class Home extends Component
             <Featured slides={this.state.home.slider}/>
             <Subscribe/>
             <Blocks blocks={this.state.home.blocks}/>
+            <Poll/>
             </div>
         )
     }
